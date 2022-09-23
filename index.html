@@ -10,17 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Projeto Prático Guiado 1</title>
+    <title>Calculadora JS</title>
     <link rel="stylesheet" href="style.css" />
     <script src="./index.js" defer></script>
   </head>
   <body>
     <main data-theme="dark">
       <header class="flex align-center justify-between">
-        <h1>Calc.js</h1>
+        <h1>Calculadora</h1>
         <button id="themeSwitcher">Switch Theme Dark/Light</button>
       </header>
-      <input type="text" id="input" />
+      <input type="text" id="input" autofocus />
       <div id="keys">
         <button id="clear">C</button>
         <button class="charKey" data-value=" ( ">(</button>
@@ -44,7 +44,7 @@
         <button id="equal">=</button>
       </div>
       <section class="flex align-center justify-between">
-        <button id="copyToClipboard">Copy</button>
+        <button id="copyToClipboard">Copiar</button>
         <input type="text" id="result" disabled />
       </section>
     </main>
